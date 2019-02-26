@@ -1,0 +1,10 @@
+$(document).ready(function(){
+	$('tr').click(function(){
+		if($(this).hasClass('active')){
+			//$('tr').removeClass('active');
+		}else{
+			$('tr').removeClass('active');
+			$(this).addClass('active');
+		}
+	});
+});
