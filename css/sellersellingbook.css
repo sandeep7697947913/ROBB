@@ -1,0 +1,39 @@
+table{
+	width:100%;
+	border-collapse:collapse;
+}
+
+th{
+	border:1px solid red;	
+}
+
+td{
+	border:1px solid red;
+	border-collapse:collapse;
+}
+
+.rec{
+	text-align:center;
+} 
+
+#bookImageContainer{
+	position:fixed; /*working */
+	width:0%;
+	right:0px;
+	bottom:100px;
+	background-color: rgba(0,0,0,0.7);
+	transition:0.5s;
+}
+
+#ImageContainer{
+	
+}
+
+#closeImage{
+	margin-left:70%;
+}
+
+#bimage{
+	height:150px;
+	margin: 0px 20px 20px 20px;
+}

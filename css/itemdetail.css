@@ -1,0 +1,37 @@
+#container{
+	margin:10px;
+	padding:20px;
+}
+
+#container img{
+	padding:20px;
+	margin:20px;
+	height:300px;
+	width:250px;
+	float:left;
+}
+
+.detail{
+	padding:4px;
+	font-size:24px;
+	padding-left:16px;
+	margin-left:350px;
+}
+
+select{
+	font-size:24px;
+	border:none;
+}
+
+select:focus{
+	outline:none;
+	border:none;
+}
+
+input{
+	font-size:24px;
+}
+
+h1{
+	margin-left:20px;
+}

@@ -1,0 +1,31 @@
+#main{
+	/* border:1px solid red; */
+	height:420px;
+}
+
+/* table configure */
+
+.notice{
+	/* border:1px solid black; */
+	font-size:24px;
+	/* margin-left:50px; */
+	padding:5px 100px;
+}
+
+.noticemessage{
+	/* border:1px solid black; */
+	margin:20px;
+}
+
+.noticedate{
+	text-align:right;
+	font-size:24px;
+	padding:5px 50px;
+}
+
+#noticeheading{
+	padding-left:50px;
+	color:white;
+	text-shadow:10px 10px 20px blue,-1px -1px 20px blue;
+	font-style:italic;
+}

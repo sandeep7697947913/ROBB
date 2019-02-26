@@ -1,0 +1,117 @@
+#main{
+	/* border: 2px solid red; */
+}
+
+#alert {
+	border-radius:15px;
+	border:2px solid #cb240c;
+	background-color:red;
+	width:80%;
+	margin:0px auto;
+	font-size:36px;
+	text-align:center;
+	display:none;
+	/* display:block; */
+	opacity:0.0;
+	color:white;
+	animation-name: animate;
+	animation-duration: 2s;
+}
+
+@keyframes animate{
+	0% {opacity:0.0;}
+	50% {opacity:1.0;}
+	100% {opacity:0.0;}
+} 
+
+#bookimage{
+	float:right;
+	height:300px;
+	width:250px;
+	margin:10px 50px 0px 50px;
+	border: 2px solid black;
+}
+
+#bheading{
+	padding-left:40px;
+	font-size:30px;
+	background-color:#cdb381;
+	font-style:italic;
+	font-weight:bold;
+}
+
+#norec{
+	padding-left:40px;
+	font-size:20px;
+	color:#b60e0e;
+}
+
+#upperform{
+	/* border:2px solid blue; */
+}
+
+#lowerform{
+	border:2px solid #cdb381;
+	border-radius:5px;
+	margin:10px 50px 10px 40px;
+	/* visibility:hidden; */
+	display: none;
+}
+
+.fields{
+	/* width:80%; */
+	/* border:2px solid red; */
+	font-size:28px;
+	margin: 4px 36px 4px 36px;
+}
+
+.fields #butt{
+	font-size:24px;
+	margin-left:50px;
+}
+
+#fheading{
+	font-size:36px;
+	background-color:#c4cfc2;
+	font-style:italic;
+	font-weight:bold;
+	padding-left:18px;
+}
+
+#fsearch input{
+	padding :0px 8px 0px 8px;
+	/* outline:2px solid blue; */
+	font-size:24px;
+} 
+
+#fsearch{
+	margin:8px 18px 8px 36px;
+}
+
+.lbl{
+	/* border:2px solid blue; */
+	display:inline-block;
+	width:25%;
+	color: #b42b12;
+	text-align:right;
+	padding-right: 8px;
+}
+
+.fld{
+	display:inline-block;
+	color:#9d9d9d;
+}
+
+.fld input{
+	padding:0px 8px 0px 8px;
+	font-size: inherit;
+	width:30%;
+	border:none;
+	border-bottom:1px solid red;
+}
+
+.fld input:focus{
+	outline:none;
+	border:none;
+	border-bottom: 2px solid green;
+}

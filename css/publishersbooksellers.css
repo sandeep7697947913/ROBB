@@ -1,0 +1,56 @@
+table{
+	border-collapse:collapse;
+}
+
+tr{
+	border-bottom:1px solid black;
+}
+
+thead{
+	width:100%;
+	display:inline-block;
+}
+
+tr{
+	width:100%;
+}
+
+td{
+	/* display:block; */
+}
+
+tbody{
+	/* width:100%; */
+	/* overflow-x:auto; */
+	overflow-y:auto;
+	height:300px;
+	display:block;
+}
+
+.sno{
+	width:5%;
+}
+
+.bpm{
+	width:5%;
+}
+
+.bname{
+	width:15%;
+}
+
+.bisbn{
+	width:10%;
+}
+
+.bauthor{
+	width:10%;
+}
+
+.bcategory{
+	width:10%;
+}
+
+.bseller{
+	width:10%;
+}

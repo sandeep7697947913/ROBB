@@ -1,0 +1,72 @@
+caption{
+	padding: 4px;
+	background-color:#cc3300; 
+	font-size: 36px;
+	border-radius: 25px;
+	border: 2px solid black;
+	margin-bottom: 12px;
+}
+td{
+	padding:0px 50px;
+	width:50%;
+}
+
+.soption{
+	background-color:#669933;
+	border-radius: 25px;
+	padding:0px 4px 0px 4px;
+	margin: 4px 2px;
+	border: 2px solid black;
+	font-size: 36px;
+}
+
+#shtable{
+	width:80%;
+	height: 60%;
+	margin: 10px auto;
+	text-align: center;
+	color: white; 
+}
+
+.soption:hover{
+	transition: .25s;
+	cursor: pointer;
+	background-color: red;
+	box-shadow: 4px 4px grey;
+	/* border-bottom: 4px solid blue; */
+	/* border-right: 4px solid blue; */
+}
+
+.soption:active{
+	transition: 0s;
+	background-color: blue;
+	box-shadow: 0px 0px;
+}
+
+/*  notifcation */
+
+
+.notice{
+	/* border:1px solid black; */
+	font-size:24px;
+	/* margin-left:50px; */
+	padding:5px 100px;
+}
+
+.noticemessage{
+	/* border:1px solid black; */
+	margin:20px;
+}
+
+.noticedate{
+	text-align:right;
+	font-size:24px;
+	padding:5px 50px;
+}
+
+#noticeheading{
+	padding-left:50px;
+	color:white;
+	text-shadow:10px 10px 20px blue,-1px -1px 20px blue;
+	font-style:italic;
+}

@@ -1,0 +1,29 @@
+#fmain{
+	border:1px solid #656670;
+	background-color:#656670;
+	/* position:fixed-absolute; */
+	position:relative;
+	width:100%;
+	bottom:0px;
+	text-align:center;
+	margin-top:70px;
+}
+
+#ful{
+	/* border: 2px solid yellow; */
+}
+
+.fli:hover{
+	text-decoration:underline;
+}
+
+.fli{
+	display:inline-block;
+	margin-left: 20px;
+	padding: 0px 20px 0px 20px;
+	font-size: 24px;
+	color:white;
+	cursor:pointer;
+	/* background-color:#6699ff; */
+	/* border: 2px solid red; */
+}

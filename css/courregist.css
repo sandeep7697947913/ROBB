@@ -1,0 +1,59 @@
+#logoimg{
+	border:1px solid red;
+	text-align:center;
+}
+
+#logoimg img{
+	height:100px;
+}
+
+#subbtn,#hbtn{
+	width:100px;
+	margin:5px auto;
+	border-radius:5px;
+	cursor:pointer;
+}
+
+#foot{
+	display:none;
+}
+
+.inreg{
+	display:none;
+}
+
+.tdb{
+	text-align:center;
+}
+
+caption{
+	color:white;
+	background-color:#ffcc66;
+	font-size:24px;
+	/* margin-bottom:10px; */
+	border-top-right-radius:15px;
+	border-top-left-radius:15px;
+}
+
+table{
+	margin:50px auto;
+	padding:20px;
+	border:2px solid #ffcc66;
+	border-bottom-right-radius:15px;
+	border-bottom-left-radius:15px;
+}
+
+td:nth-child(2n+1) input,select{
+	font-size:24px;
+	width:400px;
+	/* border:5px solid red; */
+	/* margin:15px; */
+}
+
+select{
+	text-align:center;
+}
+
+th,td{
+	font-size:24px;
+}

@@ -1,0 +1,40 @@
+#root{
+	margin : 0px auto;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	height:350px;
+	width: 50%;
+}
+
+#main{
+	box-shadow:5px 5px 20px blue;
+	text-align: center;
+	height:inherit;
+	border: 2px solid black;
+	margin-left:127px;
+}
+
+h2{
+	text-align:left;
+	font-size:36px;
+}
+
+#text{
+	font-size: 36px;
+	text-align:left;
+}
+
+#girl{
+	height:350px;
+	float: left;
+}
+
+a{
+	position:relative;
+	font-size:36px;
+	left:100px;
+}
+#logo{
+	padding-top:10px;
+	height: 25%;
+}

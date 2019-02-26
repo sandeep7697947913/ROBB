@@ -1,0 +1,55 @@
+#main{
+	/* border:1px solid red; */
+}
+
+.disabled{
+	cursor:not-allowed;
+}
+
+.enable{
+	cursor:pointer;
+}	
+
+#message{
+	padding-left:100px;
+	font-size:20px;
+}
+
+table{
+	/* border:1px solid yellow; */
+	/* width:100%; */
+	font-size:24px;
+}
+
+#tb1{
+	width:100%;
+}
+
+#tb2{
+	width:100%;
+	margin:5px 5px 5px 5px;
+	display:none;
+}
+
+caption{
+	text-align:left;
+	font-style:italic;
+	font-weight:bold;
+	color:#3366ff;
+	padding:5px 5px 5px 50px;
+}
+
+button{
+	/* border:none; */
+	border-radius:5px;
+	outline:none;
+	font-size:20px;
+	margin:10px 10px;
+}
+
+input{
+	font-size:20px;
+	padding:1px 5px 1px 10px;
+	outline:none;
+	border-radius:5px;
+}

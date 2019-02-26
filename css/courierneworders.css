@@ -1,0 +1,108 @@
+#main{
+	/* border:2px dashed red; */
+}
+
+.orderId{
+	width:100px;
+}
+
+.seller{
+	width:100px;
+}
+
+.book{
+	width:200px;
+}
+
+.price{
+	width:100px;
+}
+
+.quantity{
+	width:100px;
+}
+
+.customer{
+	width:100px;
+}
+
+.email{
+	width:200px;
+}
+
+.state{
+	width:100px;
+}
+
+.city{
+	width:100px;
+}
+
+.address{
+	width:100px;
+}
+
+.date{
+	width:100px;
+}
+
+.butn{
+	width:100px;
+}
+
+
+.table{
+	overflow-x:auto;
+	border:2px dashed red;
+}
+
+.active{
+	background-color:#939393;
+	color:white;
+}
+
+
+th{
+	background-color:#ccff00;
+}
+
+tr{
+	border-top:1px solid red;
+}
+
+td,th{
+	text-align:center;
+}
+
+table{
+	border-collapse:collapse;
+	border:1px solid blue;
+	width:100%;
+}
+
+thead tr{
+	display:block;
+	width:100%;
+}
+
+tbody tr{
+	display:block;
+	width:100%;
+}
+
+tr:hover{
+  background-color: #f2f2f2
+}
+
+tbody{
+	/* width:100%; */
+	overflow-y:auto;
+	overflow-x:auto;
+	display:block;
+	height:400px;
+}
+
+.btn{
+	cursor:not-allowed;
+	width:80px;
+}

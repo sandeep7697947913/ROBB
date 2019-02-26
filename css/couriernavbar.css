@@ -1,0 +1,53 @@
+#navbar{
+	/* background-color:yellow; */
+	/* float:right; */
+	/* margin-left:1000px; */
+	text-align:right;
+}
+
+#help{
+	background-color: #ffff00;
+}
+#ordersci{
+	background-color:#ff3333;
+}
+#home{
+	background-color:#66ff00;
+}
+#orders{
+	background-color: #0000ff;
+}
+
+.bar{
+	cursor:pointer;
+	transition:1s;
+	padding-left:25px;
+	/* height:20px; */
+	/* width:20px; */
+	border-radius:100%;
+	display:inline-block;
+	font-size:24px;
+	margin:15px;
+	color:white;
+	width:0px;
+	height:30px;
+	overflow-x:hidden;
+	overflow-y:hidden;
+	/* background-color: blue; */
+	text-align:center;
+	/* padding:5px; */
+	/* float:right; */
+}
+
+.bar:hover{
+	padding:0px;
+	border-radius:5px;
+	transition:1s;
+	width:15%;;
+}
+
+.bar:active{
+	transition:0s;
+	box-shadow: 2px 2px 50px black;
+	color:#1f1f1f;
+}

@@ -1,0 +1,96 @@
+table{
+	margin: 0px auto;
+	margin-bottom:0px;
+	font-size:36px;
+	padding-top:36px;
+	padding-left:56px;
+	padding-right:56px;
+	border:1px solid #ab917e;
+	border-radius: 0px 0px 10px 10px; 
+}
+
+caption{
+	text-align: left;
+	padding-left: 15px;
+	color: white;
+	background-color: #ab917e;
+	border-radius: 10px 10px 0px 0px;
+}
+
+.llinks{	
+	text-align: center;
+}
+.llinks li{
+	font-size: 24px;
+	margin: 0px 20px;
+	display: inline;
+}
+
+.llinks li:hover{
+	color: red;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.sep{
+	width: 5px;	
+}
+
+.fld{
+	padding: 8px;
+	text-align:center;
+}
+
+.fld input:focus{
+	border: none;
+	outline: none;
+	border-bottom: 4px solid yellow;
+	transition:1s;
+}
+
+.fld input{
+	font-size: 24px;
+	padding-left: 8px;
+	border: none;
+	border-bottom: 1px solid black;
+}
+
+#logingbotton{
+	padding: 4px 36px 4px 36px;
+	font-size: 36px;
+	border: 2px solid #9d4f00;
+	border-radius: 15px;
+	cursor: pointer;
+}
+
+#logingbotton:hover{
+	background-color: blue;
+}
+#logingbotton:active{
+	background-color: red;
+}
+#imgcuser{
+	display: inline;
+	width:100px;
+	border-radius:50%;
+	border: 2px solid black;
+}
+
+.lbl{
+	text-align: center;
+}
+
+#emailtext{
+	text-align: center;
+	padding-bottom: 2px;
+}
+
+#emailtext a{
+	color: red;
+	text-decoration: none;
+}
+
+select{
+	font-size: 24px;
+	width:90%;
+}

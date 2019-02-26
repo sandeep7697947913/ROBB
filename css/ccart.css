@@ -1,0 +1,41 @@
+.items img{
+	height:180px;
+	width:150px;
+}
+
+.items{
+	margin:20px 50px;
+	padding:10px;
+	height:180px;
+	border:2px solid black;
+}
+
+h1{
+	padding-left:30px;
+}
+
+.htbn,.removebtn{
+	font-size:18px;
+	margin-left:500px;
+	vertical-align:middle;
+}
+
+.property{
+	margin:5px;
+}
+
+select{
+	font-size:16px;
+}
+
+.left{
+	padding-left:25px;
+	display:inline-block;
+	float:left;
+}
+
+.right{
+	margin-left:180px;
+	padding-left:10px;
+	font-size:18px;
+}

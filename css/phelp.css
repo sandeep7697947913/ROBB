@@ -1,0 +1,38 @@
+body{
+	font-size:20px;
+	font-family:verdana;
+}
+
+h1{
+	text-shadow:2px 2px 10px red;
+	color:white;
+}
+
+#tb1{
+	/* border:1px solid red; */
+	display:inline-block;
+	margin-left:50px;	
+}
+
+.others{
+	padding-left:100px;
+}
+
+#tb2{
+	display:inline-block;
+	text-align:center; 
+	margin-left:80px;
+}
+#logoimg{
+	/* border:1px solid red; */
+}
+
+#logoimg img{
+	height:100px;
+}
+
+#video{
+	height:300px;
+	border:1px solid blue;
+	box-shadow:4px 4px 15px blue;
+}
